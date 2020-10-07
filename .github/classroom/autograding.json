@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "get_adj_nodes",
+      "setup": "",
+      "run": "gcc test.c list.c -o test; ./test 0 | tail -n1",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "is_valid",
+      "setup": "",
+      "run": "gcc test.c list.c -o test; ./test 1 | tail -n1",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "get_adj + is_valid",
+      "setup": "",
+      "run": "gcc test.c list.c -o test; ./test 2 | tail -n1",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "is_final",
+      "setup": "",
+      "run": "gcc test.c list.c -o test; ./test 3 | tail -n1",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "DFS",
+      "setup": "",
+      "run": "gcc test.c list.c -o test; ./test 4 | tail -n1",
+      "input": "",
+      "output": "SUCCESS",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}
